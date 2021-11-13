@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
   FILE *f = fopen("input.txt", "r");
   int tot = 0;
